@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block content %}
+    <h1 class="main_h">{{ estate.name }}</h1>
+    <div class="content_review">
+        <section class="procedure_list">
+            <p class="main_text">Название поста: {{posts.title}}</p>
+            <p class="main_text">Содержание: {{posts.content}}</p>
+
+    </div>
+{% endblock %}
